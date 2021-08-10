@@ -22,9 +22,9 @@
             <span>fechar</span>
         </div>
 
-        <header> <!--começo do heder-->
+        <header id="home"> <!--começo do header-->
             <div class="img-wrapper">
-                <img src="assets/altumcode-dMUt0X3f59Q-unsplash.jpg" alt="">
+                <img src="assets/christian-wiediger-WkfDrhxDMC8-unsplash.jpg" alt="">
             </div>
             <div class="banner">
                 <h1>Desenvolvedor full stack jr</h1>
@@ -33,26 +33,177 @@
             </div>
         </header> <!--fim do header-->
 
-        <div class="sidebar">
+        <asside class="sidebar"> <!--asside-sidebar-->
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
-            <div class="social-media">
-                <a href="#"><i class="fab fa-linkedin" style="color:rgb(0, 60, 255)" target="_blank"></i></a>
-                <a href="#"><i class="fab fa-github" style="color:black" target="_blank"></i></a>
+            <div class="social-media"> <!--social-media-->
+                <a href="https://www.linkedin.com/in/johnny-alison/"target="_blank"><i class="fab fa-linkedin" style="color:rgb(0, 60, 255)" ></i></a>
+                <a href="https://github.com/johnny-rizzo" target="_blank"><i class="fab fa-github" style="color:black" ></i></a>
             </div> <!--social-media-->
 
-        </div> <!--sidebar-->
+        </asside> <!--asside-sidebar-->
 
+        <section class="sessao-conhecimentos" id="conhecimentos"> <!--sessão dos conhecimentos-->
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5" style="color: rgb(226, 98, 12)"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O HTML é uma linguagem de marcação, focada em determinar os elementos principais que compõem a estrutura básica de uma página web, como um esqueleto.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt" style="color: rgb(0, 72, 255)"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O CSS é o responsável pela personalização visual de um site, como cores, posicionamento, configurações específicas de fontes e tamanhos, etc.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js" style="color: rgb(225, 203, 40)"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap" style="color: rgb(156, 21, 201)"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github" style="color: black"></i>
+                        <h3>Git e Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-java" style="color: rgb(255, 0, 0)"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Java é o ambiente computacional, ou plataforma. É definida como uma linguagem orientada a objetos. Sua intenção é permitir que os desenvolvedores escrevam o programa e o executem por meio de qualquer dispositivo.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="assets/cerebro.png" alt="arvore do conhecimento">
+                </div>
+            </div>
+        </section> <!--sessão dos conhecimentos-->
 
+        <section class="sessao-projetos" id="projetos"> <!--sessão dos projetos-->
+            <div class="sessao-header">
+                 <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/beeq.jpg" alt="img do projeto beequalite"/>
+                    </div>
+                    <div class="card-info">
+                        <h2>Beequalité</h2>
+                        <h3>Spring boot, HTML, CSS</h3>
+                        <p>BEEqualité é uma rede social criada para desenvolver e inserir mulheres no mercado tecnológico, que foi observado na quinta ODS da Onu, sobre igualdade de gênero e mapeado no mercado que mulheres no mercado tecnológico são minoria, e as que estão nesse mercado passa por situações de exclusão, por isso nascemos nosso intuito é mostrar que essa área é para você!</p>
+                        <a href="https://beequalite.herokuapp.com/#/login" target="_blank" class="btn"><button>Saiba mais</button></a>
+                    </div>
+                     </div>
+                     <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/plogo.jpg" alt="img do projeto Pride filmes"/>
+                    </div>
+                    <div class="card-info">
+                        <h2>Pride filmes</h2>
+                        <h3>HTML, CSS, JavaScript</h3>
+                        <p>Um site de filmes e séries voltado para o publico Lgbtqia+, o site tem filmes e séries com personagens e tramas Lgbtqia+ seja ela drama, romance, terror, suspense, musical ou comédia, no site contem apenas a imagem ( o pôster do filme/série) e a sinopse do mesmo, o site contém diversas produções nacionais e internacionais.
+                        </p>
+                        <a href="https://pridefilmes.netlify.app/index.html" target="_blank"><button>Saiba mais</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/jgames.jpg" alt="img do projeto Johnny games"/>
+                    </div>
+                    <div class="card-info">
+                        <h2>Johnny Games</h2>
+                        <h3>HTML, CSS, JavaScript</h3>
+                        <p>A Johnny Games uma pagina simples que simula uma promoção de jogos para Playstation. Foi um desafio que tive que fazer, a apgina ta super simples mas está funcional.</p>
+                        <a href="https://johnnygames.netlify.app" target="_blank"><button>Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!--sessão dos projetos-->
+
+        <section class="sessao-contato" id="contato"> <!--sessão dos contatos-->
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="Nome"id="nome">
+                            <label for="nome" class="field-label" ></label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="Email" id="email">
+                            <label for="email" class="field-label"></label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" placeholder="Mensagem" id="textarea"></textarea>
+                            <label for="textarea" class="field-label"></label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section> <!--sessão dos contatos-->
+
+        <footer> <!--footer-->
+            <div class="footer-content">
+                <p>
+                    Copyright &copy: 2021, Johnny Alison - todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                    <li><a href="https://www.linkedin.com/in/johnny-alison/" target="_blank"><i class="fab fa-linkedin" style="color:rgb(0, 60, 255)"></i></a></li>
+                    <li><a href="https://github.com/johnny-rizzo" target="_blank"><i class="fab fa-github" style="color:rgb(0, 0, 0)"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-envelope" style="color:rgb(228, 37, 37)"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer><!--footer-->
+
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+
+            </i>
+        </a>
 
 
     </div> <!--fim do container-->
 </body>
 <script src="script.js"></script>
-</html>
+</html
