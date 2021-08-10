@@ -260,7 +260,7 @@ header{
 }
 
 .sessao-conhecimentos{
-    background-color:#292929;
+    background-color:#464545;
 }
 .sessao-header{
     display:flex;
@@ -410,7 +410,11 @@ header{
     visibility: visible;
 }
 .sessao-projetos{
-    background-color: #292929;
+    background: url(assets/malik-skydsgaard-zjef0ySnFdo-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .sessao-contato{
@@ -557,3 +561,4 @@ footer{
     border-radius:5px;
     box-shadow: 0 0.1rem 0.4rem #000000;
 }
+
