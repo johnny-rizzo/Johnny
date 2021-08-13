@@ -366,6 +366,7 @@ header{
     font-weight: bolder;
     color: #ff0095;
     margin-bottom: 1.5rem;
+    justify-content: center;
 }
 
 .card-info p{
@@ -570,5 +571,10 @@ footer{
     box-shadow: 0 0.1rem 0.4rem #000000;
 }
 
+@media (max-width:768px) {
+    html{
+        font-size:50%;
+    }
+}
 
 
