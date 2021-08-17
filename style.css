@@ -581,7 +581,7 @@ footer{
 .sessao-sobre{
     width: 100%;
     height: 100vh;
-    background:url(assets/1155032.jpg);
+    background:url(assets/Grey-Radial-Gradient-Background-10.jpg);
     display: flex;
     align-items: center;
     justify-content:center;
@@ -591,16 +591,9 @@ footer{
     width: 60%;
     height: 30rem;
     display: flex;
-    
+   
 }
 
-
-
-.sobre-right{
-    width: 75%;
-    background-color: rgba(238, 238, 238, 0);
-    padding: 1rem 3rem 3rem 3rem;
-}
 
 .sessao-sobre h1{
     width: 100%;
